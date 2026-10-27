@@ -45,7 +45,6 @@
       "createdAt": "2026-09-02T09:00:00Z"
     }
   ],
-
   "addresses": [
     {
       "id": "1",
@@ -81,16 +80,56 @@
       "isDefault": true
     }
   ],
-
   "categories": [
-    { "id": "1", "name": "Burger", "slug": "burger", "image": "/images/categories/burger.png", "sortOrder": 1, "isActive": true },
-    { "id": "2", "name": "Gà rán", "slug": "ga-ran", "image": "/images/categories/chicken.png", "sortOrder": 2, "isActive": true },
-    { "id": "3", "name": "Pizza", "slug": "pizza", "image": "/images/categories/pizza.png", "sortOrder": 3, "isActive": true },
-    { "id": "4", "name": "Món ăn kèm", "slug": "mon-an-kem", "image": "/images/categories/sides.png", "sortOrder": 4, "isActive": true },
-    { "id": "5", "name": "Đồ uống", "slug": "do-uong", "image": "/images/categories/drinks.png", "sortOrder": 5, "isActive": true },
-    { "id": "6", "name": "Tráng miệng", "slug": "trang-mieng", "image": "/images/categories/dessert.png", "sortOrder": 6, "isActive": true }
+    {
+      "id": "1",
+      "name": "Burger",
+      "slug": "burger",
+      "image": "/images/categories/burger.png",
+      "sortOrder": 1,
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "name": "Gà rán",
+      "slug": "ga-ran",
+      "image": "/images/categories/chicken.png",
+      "sortOrder": 2,
+      "isActive": true
+    },
+    {
+      "id": "3",
+      "name": "Pizza",
+      "slug": "pizza",
+      "image": "/images/categories/pizza.png",
+      "sortOrder": 3,
+      "isActive": true
+    },
+    {
+      "id": "4",
+      "name": "Món ăn kèm",
+      "slug": "mon-an-kem",
+      "image": "/images/categories/sides.png",
+      "sortOrder": 4,
+      "isActive": true
+    },
+    {
+      "id": "5",
+      "name": "Đồ uống",
+      "slug": "do-uong",
+      "image": "/images/categories/drinks.png",
+      "sortOrder": 5,
+      "isActive": true
+    },
+    {
+      "id": "6",
+      "name": "Tráng miệng",
+      "slug": "trang-mieng",
+      "image": "/images/categories/dessert.png",
+      "sortOrder": 6,
+      "isActive": true
+    }
   ],
-
   "products": [
     {
       "id": "1",
@@ -102,10 +141,20 @@
       "salePrice": 49000,
       "image": "/images/products/burger-bo-pho-mai.png",
       "sizes": [
-        { "name": "Thường", "extraPrice": 0 },
-        { "name": "Double", "extraPrice": 25000 }
+        {
+          "name": "Thường",
+          "extraPrice": 0
+        },
+        {
+          "name": "Double",
+          "extraPrice": 25000
+        }
       ],
-      "toppingIds": ["1", "2", "3"],
+      "toppingIds": [
+        "1",
+        "2",
+        "3"
+      ],
       "calories": 520,
       "stock": 100,
       "soldCount": 342,
@@ -124,10 +173,19 @@
       "salePrice": null,
       "image": "/images/products/burger-ga-gion.png",
       "sizes": [
-        { "name": "Thường", "extraPrice": 0 },
-        { "name": "Double", "extraPrice": 20000 }
+        {
+          "name": "Thường",
+          "extraPrice": 0
+        },
+        {
+          "name": "Double",
+          "extraPrice": 20000
+        }
       ],
-      "toppingIds": ["1", "3"],
+      "toppingIds": [
+        "1",
+        "3"
+      ],
       "calories": 470,
       "stock": 80,
       "soldCount": 215,
@@ -146,9 +204,18 @@
       "salePrice": null,
       "image": "/images/products/ga-ran.png",
       "sizes": [
-        { "name": "1 miếng", "extraPrice": 0 },
-        { "name": "2 miếng", "extraPrice": 32000 },
-        { "name": "6 miếng", "extraPrice": 150000 }
+        {
+          "name": "1 miếng",
+          "extraPrice": 0
+        },
+        {
+          "name": "2 miếng",
+          "extraPrice": 32000
+        },
+        {
+          "name": "6 miếng",
+          "extraPrice": 150000
+        }
       ],
       "toppingIds": [],
       "calories": 290,
@@ -169,8 +236,14 @@
       "salePrice": 39000,
       "image": "/images/products/canh-ga-cay.png",
       "sizes": [
-        { "name": "4 cánh", "extraPrice": 0 },
-        { "name": "8 cánh", "extraPrice": 40000 }
+        {
+          "name": "4 cánh",
+          "extraPrice": 0
+        },
+        {
+          "name": "8 cánh",
+          "extraPrice": 40000
+        }
       ],
       "toppingIds": [],
       "calories": 410,
@@ -191,11 +264,23 @@
       "salePrice": null,
       "image": "/images/products/pizza-hai-san.png",
       "sizes": [
-        { "name": "Nhỏ (7 inch)", "extraPrice": 0 },
-        { "name": "Vừa (9 inch)", "extraPrice": 50000 },
-        { "name": "Lớn (12 inch)", "extraPrice": 110000 }
+        {
+          "name": "Nhỏ (7 inch)",
+          "extraPrice": 0
+        },
+        {
+          "name": "Vừa (9 inch)",
+          "extraPrice": 50000
+        },
+        {
+          "name": "Lớn (12 inch)",
+          "extraPrice": 110000
+        }
       ],
-      "toppingIds": ["2", "4"],
+      "toppingIds": [
+        "2",
+        "4"
+      ],
       "calories": 850,
       "stock": 40,
       "soldCount": 120,
@@ -214,10 +299,18 @@
       "salePrice": null,
       "image": "/images/products/khoai-tay.png",
       "sizes": [
-        { "name": "Vừa", "extraPrice": 0 },
-        { "name": "Lớn", "extraPrice": 10000 }
+        {
+          "name": "Vừa",
+          "extraPrice": 0
+        },
+        {
+          "name": "Lớn",
+          "extraPrice": 10000
+        }
       ],
-      "toppingIds": ["2"],
+      "toppingIds": [
+        "2"
+      ],
       "calories": 320,
       "stock": 200,
       "soldCount": 1020,
@@ -236,8 +329,14 @@
       "salePrice": null,
       "image": "/images/products/pepsi.png",
       "sizes": [
-        { "name": "M", "extraPrice": 0 },
-        { "name": "L", "extraPrice": 5000 }
+        {
+          "name": "M",
+          "extraPrice": 0
+        },
+        {
+          "name": "L",
+          "extraPrice": 5000
+        }
       ],
       "toppingIds": [],
       "calories": 150,
@@ -258,8 +357,14 @@
       "salePrice": null,
       "image": "/images/products/tra-dao.png",
       "sizes": [
-        { "name": "M", "extraPrice": 0 },
-        { "name": "L", "extraPrice": 7000 }
+        {
+          "name": "M",
+          "extraPrice": 0
+        },
+        {
+          "name": "L",
+          "extraPrice": 7000
+        }
       ],
       "toppingIds": [],
       "calories": 180,
@@ -288,16 +393,90 @@
       "isAvailable": false,
       "isFeatured": false,
       "createdAt": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "10",
+      "categoryId": "1",
+      "name": "Burger Tôm",
+      "slug": "burger-tom",
+      "description": "Chả tôm chiên xù, sốt tartar, bắp cải tím, bánh brioche.",
+      "price": 59000,
+      "salePrice": null,
+      "image": "/images/products/burger-tom.png",
+      "sizes": [
+        {
+          "name": "Thường",
+          "extraPrice": 0
+        }
+      ],
+      "toppingIds": [
+        "1"
+      ],
+      "calories": 440,
+      "stock": 50,
+      "soldCount": 180,
+      "rating": 4.6,
+      "isAvailable": true,
+      "isFeatured": false,
+      "createdAt": "2026-09-02T08:00:00Z"
+    },
+    {
+      "id": "11",
+      "categoryId": "2",
+      "name": "Gà Viên Popcorn",
+      "slug": "ga-vien-popcorn",
+      "description": "Ức gà cắt viên tẩm bột giòn, chấm sốt phô mai hoặc tương ớt.",
+      "price": 39000,
+      "salePrice": null,
+      "image": "/images/products/ga-popcorn.png",
+      "sizes": [
+        {
+          "name": "Phần vừa",
+          "extraPrice": 0
+        },
+        {
+          "name": "Phần lớn",
+          "extraPrice": 20000
+        }
+      ],
+      "toppingIds": [
+        "2"
+      ],
+      "calories": 360,
+      "stock": 90,
+      "soldCount": 420,
+      "rating": 4.7,
+      "isAvailable": true,
+      "isFeatured": false,
+      "createdAt": "2026-09-02T08:00:00Z"
     }
   ],
-
   "toppings": [
-    { "id": "1", "name": "Thêm phô mai", "price": 10000, "isAvailable": true },
-    { "id": "2", "name": "Thêm sốt phô mai", "price": 8000, "isAvailable": true },
-    { "id": "3", "name": "Thêm thịt xông khói", "price": 15000, "isAvailable": true },
-    { "id": "4", "name": "Viền phô mai", "price": 30000, "isAvailable": true }
+    {
+      "id": "1",
+      "name": "Thêm phô mai",
+      "price": 10000,
+      "isAvailable": true
+    },
+    {
+      "id": "2",
+      "name": "Thêm sốt phô mai",
+      "price": 8000,
+      "isAvailable": true
+    },
+    {
+      "id": "3",
+      "name": "Thêm thịt xông khói",
+      "price": 15000,
+      "isAvailable": true
+    },
+    {
+      "id": "4",
+      "name": "Viền phô mai",
+      "price": 30000,
+      "isAvailable": true
+    }
   ],
-
   "combos": [
     {
       "id": "1",
@@ -306,9 +485,21 @@
       "description": "1 Burger Bò Phô Mai + 1 Khoai Tây Chiên vừa + 1 Pepsi M",
       "image": "/images/combos/combo-1.png",
       "items": [
-        { "productId": "1", "size": "Thường", "quantity": 1 },
-        { "productId": "6", "size": "Vừa", "quantity": 1 },
-        { "productId": "7", "size": "M", "quantity": 1 }
+        {
+          "productId": "1",
+          "size": "Thường",
+          "quantity": 1
+        },
+        {
+          "productId": "6",
+          "size": "Vừa",
+          "quantity": 1
+        },
+        {
+          "productId": "7",
+          "size": "M",
+          "quantity": 1
+        }
       ],
       "originalPrice": 99000,
       "price": 79000,
@@ -321,16 +512,27 @@
       "description": "6 miếng gà rán + 2 khoai lớn + 4 Pepsi L",
       "image": "/images/combos/combo-2.png",
       "items": [
-        { "productId": "3", "size": "6 miếng", "quantity": 1 },
-        { "productId": "6", "size": "Lớn", "quantity": 2 },
-        { "productId": "7", "size": "L", "quantity": 4 }
+        {
+          "productId": "3",
+          "size": "6 miếng",
+          "quantity": 1
+        },
+        {
+          "productId": "6",
+          "size": "Lớn",
+          "quantity": 2
+        },
+        {
+          "productId": "7",
+          "size": "L",
+          "quantity": 4
+        }
       ],
       "originalPrice": 336000,
       "price": 269000,
       "isAvailable": true
     }
   ],
-
   "carts": [
     {
       "id": "1",
@@ -340,7 +542,9 @@
           "type": "product",
           "productId": "5",
           "size": "Vừa (9 inch)",
-          "toppingIds": ["4"],
+          "toppingIds": [
+            "4"
+          ],
           "quantity": 1,
           "unitPrice": 209000,
           "note": "Cắt 8 miếng"
@@ -354,9 +558,14 @@
         }
       ],
       "updatedAt": "2026-10-22T09:10:00Z"
+    },
+    {
+      "userId": "2",
+      "items": [],
+      "updatedAt": "2026-10-27T17:51:03.613Z",
+      "id": "tklU3lT"
     }
   ],
-
   "vouchers": [
     {
       "id": "1",
@@ -404,7 +613,6 @@
       "isActive": false
     }
   ],
-
   "orders": [
     {
       "id": "1",
@@ -422,7 +630,13 @@
           "productId": "1",
           "name": "Burger Bò Phô Mai",
           "size": "Double",
-          "toppings": [{ "toppingId": "3", "name": "Thêm thịt xông khói", "price": 15000 }],
+          "toppings": [
+            {
+              "toppingId": "3",
+              "name": "Thêm thịt xông khói",
+              "price": 15000
+            }
+          ],
           "quantity": 2,
           "unitPrice": 89000,
           "subtotal": 178000
@@ -448,11 +662,26 @@
       "status": "delivered",
       "note": "Gọi trước khi giao",
       "statusHistory": [
-        { "status": "pending", "at": "2026-10-15T11:02:00Z" },
-        { "status": "confirmed", "at": "2026-10-15T11:04:00Z" },
-        { "status": "preparing", "at": "2026-10-15T11:05:00Z" },
-        { "status": "delivering", "at": "2026-10-15T11:20:00Z" },
-        { "status": "delivered", "at": "2026-10-15T11:41:00Z" }
+        {
+          "status": "pending",
+          "at": "2026-10-15T11:02:00Z"
+        },
+        {
+          "status": "confirmed",
+          "at": "2026-10-15T11:04:00Z"
+        },
+        {
+          "status": "preparing",
+          "at": "2026-10-15T11:05:00Z"
+        },
+        {
+          "status": "delivering",
+          "at": "2026-10-15T11:20:00Z"
+        },
+        {
+          "status": "delivered",
+          "at": "2026-10-15T11:41:00Z"
+        }
       ],
       "createdAt": "2026-10-15T11:02:00Z",
       "updatedAt": "2026-10-15T11:41:00Z"
@@ -487,9 +716,18 @@
       "status": "preparing",
       "note": "",
       "statusHistory": [
-        { "status": "pending", "at": "2026-10-22T08:50:00Z" },
-        { "status": "confirmed", "at": "2026-10-22T08:51:00Z" },
-        { "status": "preparing", "at": "2026-10-22T08:55:00Z" }
+        {
+          "status": "pending",
+          "at": "2026-10-22T08:50:00Z"
+        },
+        {
+          "status": "confirmed",
+          "at": "2026-10-22T08:51:00Z"
+        },
+        {
+          "status": "preparing",
+          "at": "2026-10-22T08:55:00Z"
+        }
       ],
       "createdAt": "2026-10-22T08:50:00Z",
       "updatedAt": "2026-10-22T08:55:00Z"
@@ -527,14 +765,95 @@
       "note": "",
       "cancelReason": "Khách đổi ý",
       "statusHistory": [
-        { "status": "pending", "at": "2026-10-20T05:10:00Z" },
-        { "status": "cancelled", "at": "2026-10-20T05:12:00Z" }
+        {
+          "status": "pending",
+          "at": "2026-10-20T05:10:00Z"
+        },
+        {
+          "status": "cancelled",
+          "at": "2026-10-20T05:12:00Z"
+        }
       ],
       "createdAt": "2026-10-20T05:10:00Z",
       "updatedAt": "2026-10-20T05:12:00Z"
+    },
+    {
+      "orderCode": "FF20261027004",
+      "userId": "2",
+      "shipperId": null,
+      "shippingAddress": {
+        "receiverName": "Nguyễn Văn An",
+        "phone": "0912345678",
+        "fullAddress": "12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, TP. Hồ Chí Minh",
+        "note": ""
+      },
+      "items": [
+        {
+          "type": "product",
+          "productId": "1",
+          "name": "Burger Bò Phô Mai",
+          "size": "Thường",
+          "toppings": [],
+          "quantity": 1,
+          "unitPrice": 49000,
+          "subtotal": 49000
+        },
+        {
+          "type": "product",
+          "productId": "2",
+          "name": "Burger Gà Giòn",
+          "size": "Thường",
+          "toppings": [],
+          "quantity": 1,
+          "unitPrice": 49000,
+          "subtotal": 49000
+        },
+        {
+          "type": "product",
+          "productId": "6",
+          "name": "Khoai Tây Chiên",
+          "size": "Vừa",
+          "toppings": [],
+          "quantity": 1,
+          "unitPrice": 25000,
+          "subtotal": 25000
+        },
+        {
+          "type": "product",
+          "productId": "7",
+          "name": "Pepsi",
+          "size": "M",
+          "toppings": [],
+          "quantity": 1,
+          "unitPrice": 15000,
+          "subtotal": 15000
+        }
+      ],
+      "itemsTotal": 138000,
+      "shippingFee": 15000,
+      "voucherCode": null,
+      "discount": 0,
+      "totalAmount": 153000,
+      "paymentMethod": "cod",
+      "paymentStatus": "unpaid",
+      "status": "cancelled",
+      "note": "",
+      "deliveryTime": "now",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-10-27T17:26:20.814Z"
+        },
+        {
+          "status": "cancelled",
+          "at": "2026-10-27T17:26:56.860Z"
+        }
+      ],
+      "createdAt": "2026-10-27T17:26:20.814Z",
+      "updatedAt": "2026-10-27T17:26:56.860Z",
+      "id": "vbmP4g_"
     }
   ],
-
   "payments": [
     {
       "id": "1",
@@ -555,7 +874,6 @@
       "paidAt": "2026-10-22T08:50:30Z"
     }
   ],
-
   "reviews": [
     {
       "id": "1",
@@ -580,7 +898,6 @@
       "createdAt": "2026-10-15T13:01:00Z"
     }
   ],
-
   "banners": [
     {
       "id": "1",
@@ -599,7 +916,6 @@
       "isActive": true
     }
   ],
-
   "settings": {
     "storeName": "FastFood Express",
     "hotline": "1900 1234",
@@ -608,7 +924,19 @@
     "baseShippingFee": 15000,
     "shippingFeePerKm": 5000,
     "freeShippingThreshold": 300000,
-    "orderStatuses": ["pending", "confirmed", "preparing", "delivering", "delivered", "cancelled"],
-    "paymentMethods": ["cod", "momo", "vnpay", "card"]
+    "orderStatuses": [
+      "pending",
+      "confirmed",
+      "preparing",
+      "delivering",
+      "delivered",
+      "cancelled"
+    ],
+    "paymentMethods": [
+      "cod",
+      "momo",
+      "vnpay",
+      "card"
+    ]
   }
 }
